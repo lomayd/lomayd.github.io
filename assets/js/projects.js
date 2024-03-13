@@ -11,6 +11,15 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
+            image: 'assets/images/spring-cicd.png',
+            link: 'https://github.com/lomayd/Spring-Lab-CICD',
+            title: 'Spring-CICD',
+            demo: false,
+            technologies: ['SpringBoot', 'GitHub-Action'],
+            description: "CI / CD Using GitHub Action",
+            categories: ['lab']
+        },
+        {
             image: 'assets/images/case.png',
             link: 'https://github.com/khu-capstone-design-case/case-backend',
             title: 'CASE',
