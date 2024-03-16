@@ -15,9 +15,9 @@ let render_projects = (slug) => {
             link: 'https://github.com/lomayd/Spring-Lab-CICD',
             title: 'Spring-CICD',
             demo: false,
-            technologies: ['SpringBoot', 'GitHub-Action'],
-            description: "CI / CD Using GitHub Action",
-            categories: ['lab']
+            technologies: ['SpringBoot', 'GitHub-Action', 'Nginx'],
+            description: "Zero-Downtime CI / CD Using GitHub Action, Nginx",
+            categories: ['featured', 'lab']
         },
         {
             image: 'assets/images/case.png',
